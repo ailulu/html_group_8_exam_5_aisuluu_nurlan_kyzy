@@ -34,23 +34,10 @@ body {
 	background: #efefef;
 }
 .title {
-	background: #d34346;
-	color: #fff;
-	border-left: 10px solid #c62f31;	
+	color: #fff;	
 	width: 100%;
-	padding: 2%;
-}
-.information-title {
-	font-size: 25px;
-	font-weight: 900;
-	color: #2c3e50;
-}
-/*.information-col {
-	background: #fff;
-}*/
-.information-text {
-	background: #fff;
-	padding: 10px;
+	padding: 11px;
+
 }
 .title h2 {
 	font-size: 25px;
@@ -58,4 +45,25 @@ body {
 	font-weight: bold;
 	text-transform: uppercase;
 	margin: 0;
+}
+.title-info {
+	background: #d34346;
+	border-left: 10px solid #c62f31;
+}
+.title-services {
+	background: #314559;
+	border-left: 10px solid #18222b;
+}
+.information-title {
+	font-size: 25px;
+	font-weight: 900;
+	color: #2c3e50;
+}
+.information-text {
+	background: #fff;
+	padding: 10px;
+}
+.information-link {
+	color: #bd2d30;
+	text-transform: capitalize;
 }
